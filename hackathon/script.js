@@ -1,3 +1,4 @@
+//create html body
 document.body.innerHTML=`
 <h1>CATS</h1>
 <div class="search">
@@ -9,7 +10,7 @@ document.body.innerHTML=`
 <section class="usercontent">
 </section>
 `
-
+//display screen function
 async function getallusers() {
     const data = await fetch ("https://cataas.com/api/cats");
     const users = await data.json();
@@ -30,7 +31,7 @@ async function getallusers() {
     
 }
 getallusers();
-
+//search function 
 async function searchcats(){
    console.log("srch");
    const tag=document.querySelector(".input").value;

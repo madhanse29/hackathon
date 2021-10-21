@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    font-family: 'Rampart One', cursive;
+    font-size: 55px;
+    color: gainsboro;
+}
+
+.input{
+    width: 75vw;
+    height: 30px;
+    font-size: 26px;
+}
+
+body{
+  background: linear-gradient(to right, #1a2980, #26d0ce);
+}
+
+img{
+  width: 25vw;
+  height: 25vh;
+  border-radius: 40px;
+ object-fit: cover;
+ box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.75);
+}
+li{
+  color: aliceblue;
+  list-style: thai;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  color: #fdf857a3
+}
+.content{
+  display: inline-flex;
+ gap: 35px;
+}
+.button{
+  width: 204px;
+  height: 50px;
+  position: absolute;
+  left: 79vw;
+  top: 147px;
+  background-color: #25c8ca;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+  font-size: 32px;
+  color: darkblue;
+
+}
+.display{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.catdisplay{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.searchtag{
+  color: aliceblue;
+  list-style: thai;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+
+}
+
+.showcat{
+  width: 25vw;
+  height: 45vh;
+  border-radius: 75px;
+ object-fit: cover;
+ box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.75);
+}
